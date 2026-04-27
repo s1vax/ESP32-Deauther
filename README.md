@@ -1,2 +1,10 @@
-# ESP32-Deauther
-Here you can see how I implemented an ESP32 as a Deauther
+# ESP32 Deauther --> 
+
+## 🛒 Things we need
+- `ESP32 WROOM` (cualquier version)
+- `PC` para flasheo de firmware & configuracion de ataque
+- `USB Micro-USB a USB cable`
+
+---
+
+-
