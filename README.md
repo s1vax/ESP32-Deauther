@@ -33,9 +33,6 @@ Comparacion con un Pwnagotchi y un "BlueJammer".
 
 <br>
 
-### 💾 Versiones de Deauthers
-
-<br>
 
 ### 🧊 Carcasas 3D
 
