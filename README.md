@@ -1,5 +1,9 @@
 # ESP32 Deauther (Vulnerabilidad del protocolo IEEE 802.11 [Wi-Fi])
 
+<p align="center">
+<img width="400" height="400" alt="WhatsApp Image 2026-04-24 at 13 24 49" src="https://github.com/user-attachments/assets/46b4acf7-1e7c-4fc7-942b-5421066de235" />
+</p>
+
 ## ⚖️ Legal Disclaimer
 El creador de este repositorio no se hace responsable del uso ajeno con fines maliciosos e inapropiados a traves del dispositivo explicado. Esta totalmente prohibido afectar otras redes WIFI sin el consentimiento ni medidas de seguridad adeacuadas.
 
