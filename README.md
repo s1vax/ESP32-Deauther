@@ -28,4 +28,8 @@ Se puede orientar el ataque del Deauther a una red personal como prueba de uso. 
 
 <br>
 
+### 💾 Versiones de Deauthers
+
+<br>
+
 ### I hope you found this helpful and enjoyable. If so, leave a star ⭐ Best wishes and much success!
