@@ -6,7 +6,7 @@ El creador de este repositorio no se hace responsable del uso ajeno con fines ma
 <br>
 
 ## ✅ Entornos seguros y medidas
-Se puede orientar el ataque del Deautger a una red personal como prueba de uso. En el repositorio se explicara en detalle como lograr esto.
+Se puede orientar el ataque del Deauther a una red personal como prueba de uso. En el repositorio se explicara en detalle como lograr esto.
 
 <br>
 
@@ -18,3 +18,9 @@ Se puede orientar el ataque del Deautger a una red personal como prueba de uso. 
 <br>
 
 ---
+
+## 🔎 Step by step
+
+### ❓How it works?
+
+### 💻 Firmware
