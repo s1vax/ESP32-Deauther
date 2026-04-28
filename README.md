@@ -17,10 +17,13 @@ Se puede orientar el ataque del Deauther a una red personal como prueba de uso. 
 
 <br>
 
----
 
 ## 🔎 Step by step
 
 ### ❓How it works?
 
+<br>
+
 ### 💻 Firmware
+
+<br>
