@@ -21,6 +21,7 @@ Se puede orientar el ataque del Deauther a una red personal como prueba de uso. 
 ## 🔎 Step by step
 
 ### ❓How it works?
+Comparacion con un Pwnagotchi y un "BlueJammer".
 
 <br>
 
