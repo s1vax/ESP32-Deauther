@@ -27,7 +27,14 @@ The Deauther attack can be directed at a personal network as a proof of use. The
 ### ❓How it works?
 Comparison with a "Pwnagotchi" and a "BlueJammer". 
 
-Este dispositivo no interfiere con ruido electromagnetico, como el BlueJammer, ni tampoco ataca a los handshakes, como el Pwnagotchi. Este ESP32 Deauther interfiere en la comunicacion de un router WIFI y otro dispositivo.
+Este dispositivo no interfiere con ruido electromagnetico, como el BlueJammer, ni tampoco ataca a los handshakes, como el Pwnagotchi. Este ESP32 Deauther interfiere en la comunicacion de un router WIFI y otro dispositivo. 
+
+¿Como interfiere? Aprovechando la vulnerabilidad en el protocolo IEEE 802.11 (WIFI). De una forma sencilla realiza lo siguiente:
+- Suponemos un caso en donde un router brinda WIFI a un dispositivo en concreto. Al activar el Deauther con un SSID objetivo (proporcionado por el router) sucede que:
+  - El Deuather al router, le dice: "Hola, soy el dispositivo y me voy a desconectar"
+  - Y el Deauther al dispositivo, le dice: "Hola, soy el router y te voy a desconectar"
+
+Este proceso lo realiza de forma repetitiva, provocando que no se pueda entablar una comunicacion WIFI con el router victima, desde ningun dispositivo que se intente conectar o estaba conectado a la red.
 
 <br>
 
