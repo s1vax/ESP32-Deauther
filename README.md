@@ -25,9 +25,7 @@ The Deauther attack can be directed at a personal network as a proof of use. The
 ## 🔎 Step by step
 
 ### ❓How it works?
-Comparison with a "Pwnagotchi" and a "BlueJammer". 
-
-Este dispositivo no interfiere con ruido electromagnetico, como el BlueJammer, ni tampoco ataca a los handshakes, como el Pwnagotchi. Este ESP32 Deauther interfiere en la comunicacion de un router WIFI y otro dispositivo. 
+Comparison with a "Pwnagotchi" and a "BlueJammer": Este dispositivo no interfiere con ruido electromagnetico, como el BlueJammer, ni tampoco ataca a los handshakes, como el Pwnagotchi. Este ESP32 Deauther interfiere en la comunicacion de un router WIFI y otro dispositivo. 
 
 ¿Como interfiere? Aprovechando la vulnerabilidad en el protocolo IEEE 802.11 (WIFI). De una forma sencilla realiza lo siguiente:
 - Suponemos un caso en donde un router brinda WIFI a un dispositivo en concreto. Al activar el Deauther con un SSID objetivo (proporcionado por el router) sucede que:
@@ -39,6 +37,12 @@ Este proceso lo realiza de forma repetitiva, provocando que no se pueda entablar
 <br>
 
 ### 💻 Firmware
+Existen varios firmwares que convierten ciertos dispositivos en un `Deauther`. En este caso utilizaremos el firmware que se encuentra en #carpetarepo.
+
+Pero a continuacion les dejo algunos links de otros firmwares (algunos mas avanzados, que en vez de ser un Deauther, pasan a convertir directamente un cierto dispositivo a un `Marauder`, es decir, un Deauther + un adicional de herramientas hacking):
+
+- 
+-
 
 <br>
 
