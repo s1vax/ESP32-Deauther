@@ -48,11 +48,13 @@ Cabe destacar que este ataque es infalible en redes WPA/WPA2 estándar, pero las
 <br>
 
 ### 💻 Firmware
-Existen varios firmwares que convierten ciertos dispositivos en un `Deauther`. En este caso utilizaremos el firmware siguiente:
+- Existen varios firmwares que convierten ciertos dispositivos en un `Deauther`. En este caso utilizaremos el firmware siguiente:
   - ESP32 Flash Tool: https://drive.google.com/file/d/1UuULfBdo3wlgzL6Es9meEfsRHoHqnaKh/view 
   - BIN Files: https://drive.google.com/file/d/1CYqyvu_TVEcifmxE-ZX37RlV9JfTKWc7/view
 
-Pero a continuacion les dejo algunos links de otros firmwares (algunos mas avanzados, que en vez de ser un Deauther, pasan a convertir directamente un cierto dispositivo a un `Marauder`, es decir, un Deauther + un adicional de herramientas hacking):
+- ¿Como lo instalamos?
+
+A continuacion les dejo algunos links de otros firmwares (algunos mas avanzados, que en vez de ser un Deauther, pasan a convertir directamente un cierto dispositivo en un `Marauder`, es decir, un Deauther + un adicional de herramientas hacking):
 
 - 
 -
