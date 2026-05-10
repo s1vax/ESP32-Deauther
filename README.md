@@ -63,7 +63,10 @@ A continuacion les dejo algunos links de videos en donde utilizan otros firmware
 <br>
 
 ## ⚙️ How to install & configure the firmware
-En esta parte vamos a ver como instalar, configurar y utilizar el firmware básico seleccionado para este repositorio.
+En esta parte vamos a ver como instalar, configurar y utilizar el firmware básico seleccionado para este repositorio. 
+
+El primer paso de todos es conectar nuestra ESP32 a nuestra PC, luego:
+
 - Instalacion de la herramienta de flasheo
    - Una vez descargadas las carpetas de los links del drive de Google proporcionados mas arriba, vamos a comenzar con la instalacion del `ESP32 FLash Tool`
    - Abrimos la carpeta descomprimida `flash_download_tool_3.9.3`
@@ -78,9 +81,25 @@ En esta parte vamos a ver como instalar, configurar y utilizar el firmware bási
    - Al darle click a los tres puntos, se nos abrira el explorador de archivos para selccionar nuestros .bin. En los primeros tres puntos (primera fila) debemos elegir el archivo `partition-table.bin`
    - En los segundos, buscaremos y colocaremos el archivo `bootloader.bin`
    - Y por ultimo, en los puntos de la tercera fila, buscaremos y colocaremos el archivo `esp32-wifi-penetration-tool.bin`
-   - Como mencionamos, ahora colocaremos las direcciones de memoria, que son las siguientes:
+   - Como mencionamos, ahora colocaremos las direcciones de memoria en la columna que esta al lado de la columna de los tres puntos. Las direcciones que debemos colocar son:
        - Primera fila --> 0x8000
+       - Segunda fila --> 0x1000
+       - Tercera fila --> 0x10000
+   - Por ultimo, le damos click a las 3 casillas que se encuentran en la primera columna (deben salir en verde las filas luego de esto)
 
+- En la parte de `SPIFlashConfig`, dejamos seleccionadas las opciones:
+   - 40 MHz
+   - DIO
+   - DoNotChgBin
+
+Nos deberia de haber quedado asi:
+
+<p align="center">
+<img width="436" height="486" alt="image" src="https://github.com/user-attachments/assets/83e9b2d6-eaaa-41a5-ae68-fb788a05b255" />
+</p>
+
+- Finalmente, en la parte inferior de la ventana de la herramienta de flasheo, debemos seleccionar el puerto COM en donde se encuentra conectada nuestra ESP32, y BAUD en `11520`
+- Le damos en `START`
 
 <br>
 <br>
