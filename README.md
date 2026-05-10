@@ -52,15 +52,17 @@ Cabe destacar que este ataque es infalible en redes WPA/WPA2 estándar, pero las
   - ESP32 Flash Tool: https://drive.google.com/file/d/1UuULfBdo3wlgzL6Es9meEfsRHoHqnaKh/view 
   - BIN Files: https://drive.google.com/file/d/1CYqyvu_TVEcifmxE-ZX37RlV9JfTKWc7/view
 
-- ¿Como lo instalamos?
 
 A continuacion les dejo algunos links de otros firmwares (algunos mas avanzados, que en vez de ser un Deauther, pasan a convertir directamente un cierto dispositivo en un `Marauder`, es decir, un Deauther + un adicional de herramientas hacking):
 
-- 
--
 
 <br>
 
+### ⚙️ How to install & configure the firmware
+
+
+
+<br>
 
 ### 🧊 3D Cases (📌 in progress)
 
