@@ -69,11 +69,17 @@ En esta parte vamos a ver como instalar, configurar y utilizar el firmware bási
    - Abrimos la carpeta descomprimida `flash_download_tool_3.9.3`
    - Luego le damos doble click en el archivo `flash_download_tool_3.9.3.exe`
    - Se abriran 2 ventanas (un cmd y una mas pequeña), en la mas pequeña colocamos las opciones de: `ESP32` (en vez de ESP38266) y `Develop`. Le damos en `OK`
-   - Cerramos el cmd y veremos que se abrira otra ventana. Esta tiene la pestaña de SPIDownload
-   
+   - Cerramos el cmd, y veremos que se abrira otra ventana. Esta es la de la herramienta de flasheo
    
 - Instalacion de archivos `.bin`
-   - 
+   - Ahora, abriremos la carpeta llamada `esp32-wifi-penetration-tool-master`
+   - Luego vamos a la sub-carpeta llamada `build`. Aqui vamos a encontrar los archivos .bin necesarios
+   - Ahora lo que hacemos es: en la ventana de la herramienta de flasheo, le vamos a dar click a los tres puntos que aparecen por cada fila y en una sola columna, para insertar los archivos .bin, y seguido a ello, colocaremos ciertas direcciones de memoria 
+   - Al darle click a los tres puntos, se nos abrira el explorador de archivos para selccionar nuestros .bin. En los primeros tres puntos (primera fila) debemos elegir el archivo `partition-table.bin`
+   - En los segundos, buscaremos y colocaremos el archivo `bootloader.bin`
+   - Y por ultimo, en los puntos de la tercera fila, buscaremos y colocaremos el archivo `esp32-wifi-penetration-tool.bin`
+   - Como mencionamos, ahora colocaremos las direcciones de memoria, que son las siguientes:
+       - Primera fila --> 0x8000
 
 
 <br>
