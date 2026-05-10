@@ -24,7 +24,7 @@ The Deauther attack can be directed at a personal network as a proof of use. The
 
 ## 🔎 Step by step
 
-### ❓How it works?
+## ❓How it works?
 
 - Comparación con otras herramientas (BlueJammer y Pwnagotchi):
 A diferencia de un Jammer tradicional, que ataca la capa física inundando el entorno con ruido electromagnético para que ninguna señal pueda transmitirse, o de un Pwnagotchi, que ataca la seguridad intentando capturar los handshakes para descifrar contraseñas, un ESP32 Deauther no hace ruido ni roba claves. Su objetivo es realizar un ataque de Denegación de Servicio (DoS) interfiriendo lógicamente en la comunicación entre un router WiFi y los dispositivos conectados a él.
@@ -46,8 +46,9 @@ Este proceso lo realiza enviando estos paquetes de forma continua y repetitiva. 
 Cabe destacar que este ataque es infalible en redes WPA/WPA2 estándar, pero las redes más modernas que utilizan WPA3 o que tienen activada la protección PMF (Protected Management Frames / estándar 802.11w) son inmunes. En estos casos modernos, las tramas de desconexión sí están encriptadas, por lo que los dispositivos ignoran el ataque del ESP32.
 
 <br>
+<br>
 
-### 💻 Firmware
+## 💻 Firmware
 - Existen varios firmwares que convierten ciertos dispositivos en un `Deauther`. En este caso utilizaremos el firmware siguiente:
   - `ESP32 Flash Tool`: https://drive.google.com/file/d/1UuULfBdo3wlgzL6Es9meEfsRHoHqnaKh/view 
   - `BIN Files`: https://drive.google.com/file/d/1CYqyvu_TVEcifmxE-ZX37RlV9JfTKWc7/view
@@ -55,20 +56,30 @@ Cabe destacar que este ataque es infalible en redes WPA/WPA2 estándar, pero las
 
 A continuacion les dejo algunos links de videos en donde utilizan otros firmwares de desautenticacion (algunos mas avanzados, que en vez de ser un simple Deauther, pasan a convertir directamente un cierto dispositivo en un `Marauder`, es decir, un Deauther + un adicional de herramientas hacking/pentesting):
   - `ESP32 Marauder (por JustCallMeKoko)` --> https://www.youtube.com/watch?v=bHivs2c_o7I
-  - `ESP32 Deauther / GhostESP` --> 
+  - `ESP32 Deauther / GhostESP` --> https://www.youtube.com/watch?v=dryQoQLEl90
   - `Bruce Firmware` --> https://www.youtube.com/watch?v=1dC_abmQvzA
 
 <br>
+<br>
 
-### ⚙️ How to install & configure the firmware
+## ⚙️ How to install & configure the firmware
 En esta parte vamos a ver como instalar, configurar y utilizar el firmware básico seleccionado para este repositorio.
-- Una vez descargadas las carpetas de los links de drive de Google proporcionados arriba, vamos a comenzar con la instalacion del `ESP32 FLash Tool`.
-- 
+- Instalacion de la herramienta de flasheo
+   - Una vez descargadas las carpetas de los links del drive de Google proporcionados mas arriba, vamos a comenzar con la instalacion del `ESP32 FLash Tool`
+   - Abrimos la carpeta descomprimida `flash_download_tool_3.9.3`
+   - Luego le damos doble click en el archivo `flash_download_tool_3.9.3.exe`
+   - Se abriran 2 ventanas (un cmd y una mas pequeña), en la mas pequeña colocamos las opciones de: `ESP32` (en vez de ESP38266) y `Develop`. Le damos en `OK`
+   - Cerramos el cmd y veremos que se abrira otra ventana. Esta tiene la pestaña de SPIDownload
+   
+   
+- Instalacion de archivos `.bin`
+   - 
 
 
 <br>
+<br>
 
-### 🧊 3D Cases (📌 in progress)
+## 🧊 3D Cases (📌 in progress)
 
 <br>
 
