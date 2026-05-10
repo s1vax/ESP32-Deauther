@@ -49,8 +49,8 @@ Cabe destacar que este ataque es infalible en redes WPA/WPA2 estándar, pero las
 
 ### 💻 Firmware
 - Existen varios firmwares que convierten ciertos dispositivos en un `Deauther`. En este caso utilizaremos el firmware siguiente:
-  - ESP32 Flash Tool: https://drive.google.com/file/d/1UuULfBdo3wlgzL6Es9meEfsRHoHqnaKh/view 
-  - BIN Files: https://drive.google.com/file/d/1CYqyvu_TVEcifmxE-ZX37RlV9JfTKWc7/view
+  - `ESP32 Flash Tool`: https://drive.google.com/file/d/1UuULfBdo3wlgzL6Es9meEfsRHoHqnaKh/view 
+  - `BIN Files`: https://drive.google.com/file/d/1CYqyvu_TVEcifmxE-ZX37RlV9JfTKWc7/view
 
 
 A continuacion les dejo algunos links de otros firmwares (algunos mas avanzados, que en vez de ser un Deauther, pasan a convertir directamente un cierto dispositivo en un `Marauder`, es decir, un Deauther + un adicional de herramientas hacking):
@@ -59,7 +59,9 @@ A continuacion les dejo algunos links de otros firmwares (algunos mas avanzados,
 <br>
 
 ### ⚙️ How to install & configure the firmware
-
+En esta parte vamos a ver como instalar, configurar y utilizar el firmware básico seleccionado para este repositorio.
+- Una vez descargadas las carpetas de los links de drive de Google proporcionados arriba, vamos a comenzar con la instalacion del `ESP32 FLash Tool`.
+- 
 
 
 <br>
