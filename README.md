@@ -101,6 +101,12 @@ Nos deberia de haber quedado asi:
 - Finalmente, en la parte inferior de la ventana de la herramienta de flasheo, debemos seleccionar el puerto COM en donde se encuentra conectada nuestra ESP32, y BAUD en `11520`
 - Le damos en `START`
 
+Hasta aca, ya tenemos nuestra ESP32 flasheada con el firmware para convertirlo en un Deauther ✅
+
+Ahora la ESP32 estando alimentada por su puerto, lo primero que hara es generar una red wifi llamada `Managment AP`. Nos debemos conectar a esta red desde nuestra PC u otro dispositivo, la contraseña de esta es: `mgmtadmin`. Lo siguiente que haremos es entrar a cualquier navegador y colocar la siguiente direccion en el buscador: `192.168.4.1`. ¿Que hace todo este conjunto de pasos? Nos permite configurar desde la web a nuestro Deauther.
+
+
+
 <br>
 <br>
 
