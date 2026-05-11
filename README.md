@@ -8,10 +8,12 @@
 The creator of this repository is not responsible for any malicious or inappropriate use of the device described. It is strictly prohibited to interfere with other Wi-Fi networks without consent or adequate security measures.
 
 <br>
+<br>
 
 ## ✅ Safe environments and measures
 The Deauther attack can be directed at a personal network as a proof of use. The repository will explain in detail how to achieve this.
 
+<br>
 <br>
 
 ## 🛒 Things we need
@@ -20,9 +22,8 @@ The Deauther attack can be directed at a personal network as a proof of use. The
 - `USB Micro-USB a USB cable`
 
 <br>
+<br>
 
-
-## 🔎 Step by step
 
 ## ❓How it works?
 
