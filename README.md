@@ -112,8 +112,11 @@ Entrando a la direccion en el navegador, observaremos varias opciones de configr
 
    - En la lista de redes WIFI `Select Target`, debemos seleccionar una red, que sera la red victima de nuestro ataque de desautenticacion (con fines eticos y educativos, esta debe ser alguna red de nuestra propiedad)
    - En el apartado de `Attack Configuration` podemos encontrar:
+
       - Attack type --> Que tipo de ataque realizaremos (DoS, Handshake, PMKID, Passive). Nosotros seleccionaremos `ATTACK_TYPE_DOS`
+        
       - Attack method --> Que metodo de ataque utilizaremos. Nosotros utilizaremos `ATTACK_COMBINE_ALL`. Lo que significa esto es que el ESP32 va a disparar con todo su arsenal al mismo tiempo: va a mandar órdenes de desconexión globales (Broadcast FF:FF:FF:FF:FF:FF) y también órdenes individuales a cada celular o PC que vea conectado (Unicast). Básicamente, inunda el aire con tantas órdenes falsas de desconexión que el router se colapsa y nadie puede usar el WiFi.
+        
       - Attack timeout --> Durante cuantos segundos durara nuestro ataque
 
 <br>
