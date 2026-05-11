@@ -28,7 +28,7 @@ The Deauther attack can be directed at a personal network as a proof of use. The
 ## ❓How it works?
 
 - ***Comparison with other tools (BlueJammer and Pwnagotchi):*** <br>
-A diferencia de un Jammer tradicional, que ataca la capa física inundando el entorno con ruido electromagnético para que ninguna señal pueda transmitirse, o de un Pwnagotchi, que ataca la seguridad intentando capturar los handshakes para descifrar contraseñas, un ESP32 Deauther no hace ruido ni roba claves. Su objetivo es realizar un ataque de Denegación de Servicio (DoS) interfiriendo lógicamente en la comunicación entre un router WiFi y los dispositivos conectados a él.
+Unlike a traditional jammer, which attacks the physical layer by flooding the environment with electromagnetic noise to prevent any signal transmission, or a Pwnagotchi, which attacks security by attempting to capture handshakes to crack passwords, an ESP32 Deauther doesn't make noise or steal keys. Its purpose is to perform a Denial-of-Service (DoS) attack by logically interfering with communication between a Wi-Fi router and the devices connected to it.
 
 
 - ***¿Cómo interfiere? (La vulnerabilidad):*** <br>
