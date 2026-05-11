@@ -35,8 +35,8 @@ Unlike a traditional jammer, which attacks the physical layer by flooding the en
 Deauther exploits a historical vulnerability in the IEEE 802.11 (WiFi) protocol. In traditional WPA and WPA2 networks, browsing data travels encrypted, but Management Frames (the messages the router and device use to say "I'm connecting" or "I'm disconnecting") travel in plain text and do not require identity validation.
 
 
-- ***El proceso de ataque (MAC Spoofing):*** <br>
-Al aprovechar que estas tramas de desconexión no tienen contraseña, el Deauther utiliza una técnica de falsificación de identidad (MAC Spoofing). Supongamos un caso en donde un router le brinda WiFi a un dispositivo. Al activar el Deauther contra esa red, sucede lo siguiente:
+- ***The attack process (MAC Spoofing):*** <br>
+By taking advantage of the fact that these disconnection frames are not password-protected, the Deauther uses a MAC address spoofing technique. Let's consider a case where a router provides Wi-Fi to a device. When the Deauther is activated against that network, the following occurs:
 
    - El Deauther clona la identidad del dispositivo y le dice al router: "Hola, soy el dispositivo y me voy a desconectar".
 
