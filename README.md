@@ -43,8 +43,8 @@ By taking advantage of the fact that these disconnection frames are not password
    - Simultaneously, it clones the router's identity and tells the device: "Hello, I am the router and I am going to disconnect you."
 
 
-- ***El alcance del ataque:*** <br>
-Este proceso lo realiza enviando estos paquetes de forma continua y repetitiva. El Deauther puede hacer esto contra un solo equipo en particular (ataque Unicast) o enviar una orden global (ataque Broadcast) para afectar a toda la red. Como resultado, provoca que no se pueda entablar o mantener una comunicación WiFi con el router víctima desde ningún dispositivo.
+- ***The scope of the attack:*** <br>
+This process is carried out by sending these packets continuously and repeatedly. The deauther can do this against a single device (unicast attack) or send a global command (broadcast attack) to affect the entire network. As a result, it prevents any device from establishing or maintaining a Wi-Fi connection with the victim router.
 
 
 - ***Aclaración sobre redes modernas:*** <br>
