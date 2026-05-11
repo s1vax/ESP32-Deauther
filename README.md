@@ -31,8 +31,8 @@ The Deauther attack can be directed at a personal network as a proof of use. The
 Unlike a traditional jammer, which attacks the physical layer by flooding the environment with electromagnetic noise to prevent any signal transmission, or a Pwnagotchi, which attacks security by attempting to capture handshakes to crack passwords, an ESP32 Deauther doesn't make noise or steal keys. Its purpose is to perform a Denial-of-Service (DoS) attack by logically interfering with communication between a Wi-Fi router and the devices connected to it.
 
 
-- ***¿Cómo interfiere? (La vulnerabilidad):*** <br>
-El Deauther aprovecha una vulnerabilidad histórica en el protocolo IEEE 802.11 (WiFi). En las redes WPA y WPA2 tradicionales, los datos de navegación viajan encriptados, pero las llamadas Tramas de Gestión (Management Frames —los mensajes que el router y el dispositivo usan para decir "me conecto" o "me desconecto"—) viajan en texto plano y no requieren validación de identidad.
+- ***¿How does it interfere? (Vulnerability):*** <br>
+Deauther exploits a historical vulnerability in the IEEE 802.11 (WiFi) protocol. In traditional WPA and WPA2 networks, browsing data travels encrypted, but Management Frames (the messages the router and device use to say "I'm connecting" or "I'm disconnecting") travel in plain text and do not require identity validation.
 
 
 - ***El proceso de ataque (MAC Spoofing):*** <br>
