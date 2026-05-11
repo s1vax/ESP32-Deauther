@@ -27,23 +27,23 @@ The Deauther attack can be directed at a personal network as a proof of use. The
 
 ## ❓How it works?
 
-- Comparison with other tools (BlueJammer and Pwnagotchi):
+- ***Comparison with other tools (BlueJammer and Pwnagotchi):***
 A diferencia de un Jammer tradicional, que ataca la capa física inundando el entorno con ruido electromagnético para que ninguna señal pueda transmitirse, o de un Pwnagotchi, que ataca la seguridad intentando capturar los handshakes para descifrar contraseñas, un ESP32 Deauther no hace ruido ni roba claves. Su objetivo es realizar un ataque de Denegación de Servicio (DoS) interfiriendo lógicamente en la comunicación entre un router WiFi y los dispositivos conectados a él.
 
-- ¿Cómo interfiere? (La vulnerabilidad):
+- ***¿Cómo interfiere? (La vulnerabilidad):***
 El Deauther aprovecha una vulnerabilidad histórica en el protocolo IEEE 802.11 (WiFi). En las redes WPA y WPA2 tradicionales, los datos de navegación viajan encriptados, pero las llamadas Tramas de Gestión (Management Frames —los mensajes que el router y el dispositivo usan para decir "me conecto" o "me desconecto"—) viajan en texto plano y no requieren validación de identidad.
 
-- El proceso de ataque (MAC Spoofing):
+- ***El proceso de ataque (MAC Spoofing):***
 Al aprovechar que estas tramas de desconexión no tienen contraseña, el Deauther utiliza una técnica de falsificación de identidad (MAC Spoofing). Supongamos un caso en donde un router le brinda WiFi a un dispositivo. Al activar el Deauther contra esa red, sucede lo siguiente:
 
   - El Deauther clona la identidad del dispositivo y le dice al router: "Hola, soy el dispositivo y me voy a desconectar".
 
   - Simultáneamente, clona la identidad del router y le dice al dispositivo: "Hola, soy el router y te voy a desconectar".
 
-- El alcance del ataque:
+- ***El alcance del ataque:***
 Este proceso lo realiza enviando estos paquetes de forma continua y repetitiva. El Deauther puede hacer esto contra un solo equipo en particular (ataque Unicast) o enviar una orden global (ataque Broadcast) para afectar a toda la red. Como resultado, provoca que no se pueda entablar o mantener una comunicación WiFi con el router víctima desde ningún dispositivo.
 
-- Aclaración sobre redes modernas:
+- ***Aclaración sobre redes modernas:***
 Cabe destacar que este ataque es infalible en redes WPA/WPA2 estándar, pero las redes más modernas que utilizan WPA3 o que tienen activada la protección PMF (Protected Management Frames / estándar 802.11w) son inmunes. En estos casos modernos, las tramas de desconexión sí están encriptadas, por lo que los dispositivos ignoran el ataque del ESP32.
 
 <br>
