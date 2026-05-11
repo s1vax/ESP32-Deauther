@@ -38,9 +38,9 @@ Deauther exploits a historical vulnerability in the IEEE 802.11 (WiFi) protocol.
 - ***The attack process (MAC Spoofing):*** <br>
 By taking advantage of the fact that these disconnection frames are not password-protected, the Deauther uses a MAC address spoofing technique. Let's consider a case where a router provides Wi-Fi to a device. When the Deauther is activated against that network, the following occurs:
 
-   - El Deauther clona la identidad del dispositivo y le dice al router: "Hola, soy el dispositivo y me voy a desconectar".
+   - The Deauther clones the device's identity and tells the router: "Hello, I am the device and I am going to disconnect."
 
-   - Simultáneamente, clona la identidad del router y le dice al dispositivo: "Hola, soy el router y te voy a desconectar".
+   - Simultaneously, it clones the router's identity and tells the device: "Hello, I am the router and I am going to disconnect you."
 
 
 - ***El alcance del ataque:*** <br>
