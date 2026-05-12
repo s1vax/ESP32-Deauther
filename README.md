@@ -117,9 +117,9 @@ So far, we have our ESP32 flashed with the firmware to turn it into a Deauther â
 
 Now, with the ESP32 powered by its port, the first thing it will do is generate a wifi network called `Management AP`. We need to connect to this network from our PC or another device; the password is: `mgmtadmin`. Next, we'll open any web browser and enter the following address in the address bar: `192.168.4.1`. What does all these steps do? They allow us to configure our Deauther from the web.
 
-Entrando a la direccion en el navegador, observaremos varias opciones de configruacion y una lista de redes WIFI a nuestro alrededor.
+By entering the address in the browser, we will see several configuration options and a list of WIFI networks around us.
 
-   - En la lista de redes WIFI `Select Target`, debemos seleccionar una red, que sera la red victima de nuestro ataque de desautenticacion (con fines eticos y educativos, esta debe ser alguna red de nuestra propiedad)
+   - In the WIFI network list `Select Target`, we must select a network, which will be the victim of our deauthentication attack (for ethical and educational purposes, this should be a network we own).
    - En el apartado de `Attack Configuration` podemos encontrar:
 
       - ***Attack type*** --> Que tipo de ataque realizaremos (DoS, Handshake, PMKID, Passive). Nosotros seleccionaremos `ATTACK_TYPE_DOS`
