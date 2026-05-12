@@ -73,14 +73,14 @@ In this section we will see how to install, configure and use the basic firmware
 
 The first step is to connect our ESP32 to our PC, then:
 
-- Instalacion de la herramienta de flasheo
+- Installing the flashing tool
    - Una vez descargadas las carpetas de los links del drive de Google proporcionados mas arriba, vamos a comenzar con la instalacion del `ESP32 FLash Tool`
    - Abrimos la carpeta descomprimida `flash_download_tool_3.9.3`
    - Luego le damos doble click en el archivo `flash_download_tool_3.9.3.exe`
    - Se abriran 2 ventanas (un cmd y una mas pequeña), en la mas pequeña colocamos las opciones de: `ESP32` (en vez de ESP38266) y `Develop`. Le damos en `OK`
    - Cerramos el cmd, y veremos que se abrira otra ventana. Esta es la de la herramienta de flasheo
    
-- Instalacion de archivos `.bin`
+- Installing `.bin` files
    - Ahora, abriremos la carpeta llamada `esp32-wifi-penetration-tool-master`
    - Luego vamos a la sub-carpeta llamada `build`. Aqui vamos a encontrar los archivos .bin necesarios
    - Ahora lo que hacemos es: en la ventana de la herramienta de flasheo, le vamos a dar click a los tres puntos que aparecen por cada fila y en una sola columna, para insertar los archivos .bin, y seguido a ello, colocaremos ciertas direcciones de memoria 
@@ -93,12 +93,12 @@ The first step is to connect our ESP32 to our PC, then:
        - Tercera fila --> 0x10000
    - Por ultimo, le damos click a las 3 casillas que se encuentran en la primera columna (deben salir en verde las filas luego de esto)
 
-- En la parte de `SPIFlashConfig`, dejamos seleccionadas las opciones:
+- In the `SPIFlashConfig` section, we leave the following options selected:
    - 40 MHz
    - DIO
    - DoNotChgBin
 
-Nos deberia de haber quedado asi:
+It should have looked like this:
 
 <p align="center">
 <img width="436" height="486" alt="image" src="https://github.com/user-attachments/assets/83e9b2d6-eaaa-41a5-ae68-fb788a05b255" />
