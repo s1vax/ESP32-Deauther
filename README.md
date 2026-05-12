@@ -124,9 +124,9 @@ By entering the address in the browser, we will see several configuration option
 
       - ***Attack type*** --> What type of attack will we perform (DoS, Handshake, PMKID, Passive)? We will select `ATTACK_TYPE_DOS`
         
-      - ***Attack method*** --> Que metodo de ataque utilizaremos. Nosotros utilizaremos `ATTACK_COMBINE_ALL`. Lo que significa esto es que el ESP32 va a disparar con todo su arsenal al mismo tiempo: va a mandar órdenes de desconexión globales (Broadcast FF:FF:FF:FF:FF:FF) y también órdenes individuales a cada celular o PC que vea conectado (Unicast). Básicamente, inunda el aire con tantas órdenes falsas de desconexión que el router se colapsa y nadie puede usar el WiFi.
+      - ***Attack method*** --> What attack method will we use? We will use `ATTACK_COMBINE_ALL`. This means that the ESP32 will fire its entire arsenal at once: it will send global disconnect commands (Broadcast FF:FF:FF:FF:FF:FF) and also individual commands to each cell phone or PC it detects connected (Unicast). Basically, it floods the airwaves with so many fake disconnect commands that the router crashes and nobody can use the Wi-Fi.
         
-      - ***Attack timeout*** --> Durante cuantos segundos durara nuestro ataque
+      - ***Attack timeout*** --> It tells us how many seconds our attack will last.
 
 <br>
 
