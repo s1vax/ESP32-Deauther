@@ -48,7 +48,7 @@ This process is carried out by sending these packets continuously and repeatedly
 
 
 - ***Clarification on modern networks:*** <br>
-Cabe destacar que este ataque es infalible en redes WPA/WPA2 estándar, pero las redes más modernas que utilizan WPA3 o que tienen activada la protección PMF (Protected Management Frames / estándar 802.11w) son inmunes. En estos casos modernos, las tramas de desconexión sí están encriptadas, por lo que los dispositivos ignoran el ataque del ESP32.
+It's worth noting that this attack is foolproof on standard WPA/WPA2 networks, but more modern networks using WPA3 or with PMF (Protected Management Frames / 802.11w standard) enabled are immune. In these modern cases, the disconnection frames are encrypted, so the devices ignore the ESP32 attack.
 
 <br>
 <br>
