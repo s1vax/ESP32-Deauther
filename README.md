@@ -81,8 +81,8 @@ The first step is to connect our ESP32 to our PC, then:
    - We close the command prompt, and another window will open. This is the flashing tool window
    
 - Installing `.bin` files
-   - Ahora, abriremos la carpeta llamada `esp32-wifi-penetration-tool-master`
-   - Luego vamos a la sub-carpeta llamada `build`. Aqui vamos a encontrar los archivos .bin necesarios
+   - Now, we will open the folder called `esp32-wifi-penetration-tool-master`
+   - Next, we go to the subfolder called `build`. Here we will find the necessary .bin files
    - Ahora lo que hacemos es: en la ventana de la herramienta de flasheo, le vamos a dar click a los tres puntos que aparecen por cada fila y en una sola columna, para insertar los archivos .bin, y seguido a ello, colocaremos ciertas direcciones de memoria 
    - Al darle click a los tres puntos, se nos abrira el explorador de archivos para selccionar nuestros .bin. En los primeros tres puntos (primera fila) debemos elegir el archivo `partition-table.bin`
    - En los segundos, buscaremos y colocaremos el archivo `bootloader.bin`
