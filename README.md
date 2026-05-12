@@ -74,8 +74,8 @@ In this section we will see how to install, configure and use the basic firmware
 The first step is to connect our ESP32 to our PC, then:
 
 - Installing the flashing tool
-   - Una vez descargadas las carpetas de los links del drive de Google proporcionados mas arriba, vamos a comenzar con la instalacion del `ESP32 FLash Tool`
-   - Abrimos la carpeta descomprimida `flash_download_tool_3.9.3`
+   - Once you have downloaded the folders from the Google Drive links provided above, we will begin installing the `ESP32 Flash Tool`
+   - We open the unzipped folder `flash_download_tool_3.9.3`
    - Luego le damos doble click en el archivo `flash_download_tool_3.9.3.exe`
    - Se abriran 2 ventanas (un cmd y una mas pequeña), en la mas pequeña colocamos las opciones de: `ESP32` (en vez de ESP38266) y `Develop`. Le damos en `OK`
    - Cerramos el cmd, y veremos que se abrira otra ventana. Esta es la de la herramienta de flasheo
