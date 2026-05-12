@@ -54,7 +54,7 @@ It's worth noting that this attack is foolproof on standard WPA/WPA2 networks, b
 <br>
 
 ## 💻 Firmware
-- Existen varios firmwares que convierten ciertos dispositivos en un `Deauther`. En este caso utilizaremos el firmware siguiente:
+- There are several firmwares that can turn certain devices into a `Deauther`. In this case, we will use the following firmware:
   - `ESP32 Flash Tool`: https://drive.google.com/file/d/1UuULfBdo3wlgzL6Es9meEfsRHoHqnaKh/view 
   - `BIN Files`: https://drive.google.com/file/d/1CYqyvu_TVEcifmxE-ZX37RlV9JfTKWc7/view
 
