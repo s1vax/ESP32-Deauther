@@ -69,9 +69,9 @@ Below are some links to videos where they use other deauthentication firmwares (
 <br>
 
 ## ⚙️ How to install & configure the firmware
-En esta parte vamos a ver como instalar, configurar y utilizar el firmware básico seleccionado para este repositorio. 
+In this section we will see how to install, configure and use the basic firmware selected for this repository.
 
-El primer paso de todos es conectar nuestra ESP32 a nuestra PC, luego:
+The first step is to connect our ESP32 to our PC, then:
 
 - Instalacion de la herramienta de flasheo
    - Una vez descargadas las carpetas de los links del drive de Google proporcionados mas arriba, vamos a comenzar con la instalacion del `ESP32 FLash Tool`
