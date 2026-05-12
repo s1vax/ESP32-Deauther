@@ -87,8 +87,8 @@ The first step is to connect our ESP32 to our PC, then:
    - Next, we go to the subfolder called `build`. Here we will find the necessary .bin files
    - Now what we do is: in the flashing tool window, we're going to click on the three dots that appear for each row and in a single column, to insert the .bin files, and then we'll place certain memory addresses
    - Clicking the three dots will open the file explorer, allowing you to select your .bin files. In the first three dots (first row), you should choose the file `partition-table.bin`.
-   - En los segundos, buscaremos y colocaremos el archivo `bootloader.bin`
-   - Y por ultimo, en los puntos de la tercera fila, buscaremos y colocaremos el archivo `esp32-wifi-penetration-tool.bin`
+   - In the second step, we will search for and place the `bootloader.bin` file.
+   - And finally, in the points of the third row, we will look for and place the file `esp32-wifi-penetration-tool.bin`
    - Como mencionamos, ahora colocaremos las direcciones de memoria en la columna que esta al lado de la columna de los tres puntos. Las direcciones que debemos colocar son:
        - Primera fila --> 0x8000
        - Segunda fila --> 0x1000
