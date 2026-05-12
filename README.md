@@ -47,7 +47,7 @@ By taking advantage of the fact that these disconnection frames are not password
 This process is carried out by sending these packets continuously and repeatedly. The deauther can do this against a single device (unicast attack) or send a global command (broadcast attack) to affect the entire network. As a result, it prevents any device from establishing or maintaining a Wi-Fi connection with the victim router.
 
 
-- ***Aclaración sobre redes modernas:*** <br>
+- ***Clarification on modern networks:*** <br>
 Cabe destacar que este ataque es infalible en redes WPA/WPA2 estándar, pero las redes más modernas que utilizan WPA3 o que tienen activada la protección PMF (Protected Management Frames / estándar 802.11w) son inmunes. En estos casos modernos, las tramas de desconexión sí están encriptadas, por lo que los dispositivos ignoran el ataque del ESP32.
 
 <br>
