@@ -120,9 +120,9 @@ Now, with the ESP32 powered by its port, the first thing it will do is generate 
 By entering the address in the browser, we will see several configuration options and a list of WIFI networks around us.
 
    - In the WIFI network list `Select Target`, we must select a network, which will be the victim of our deauthentication attack (for ethical and educational purposes, this should be a network we own).
-   - En el apartado de `Attack Configuration` podemos encontrar:
+   - In the `Attack Configuration` section we can find:
 
-      - ***Attack type*** --> Que tipo de ataque realizaremos (DoS, Handshake, PMKID, Passive). Nosotros seleccionaremos `ATTACK_TYPE_DOS`
+      - ***Attack type*** --> What type of attack will we perform (DoS, Handshake, PMKID, Passive)? We will select `ATTACK_TYPE_DOS`
         
       - ***Attack method*** --> Que metodo de ataque utilizaremos. Nosotros utilizaremos `ATTACK_COMBINE_ALL`. Lo que significa esto es que el ESP32 va a disparar con todo su arsenal al mismo tiempo: va a mandar órdenes de desconexión globales (Broadcast FF:FF:FF:FF:FF:FF) y también órdenes individuales a cada celular o PC que vea conectado (Unicast). Básicamente, inunda el aire con tantas órdenes falsas de desconexión que el router se colapsa y nadie puede usar el WiFi.
         
