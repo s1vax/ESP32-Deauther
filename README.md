@@ -115,7 +115,7 @@ So far, we have our ESP32 flashed with the firmware to turn it into a Deauther �
 
 <br>
 
-Now, with the ESP32 powered by its port, the first thing it will do is generate a wifi network called `Management AP`. Nos debemos conectar a esta red desde nuestra PC u otro dispositivo, la contraseña es: `mgmtadmin`. Lo siguiente que haremos es entrar a cualquier navegador y colocar la siguiente direccion en el buscador: `192.168.4.1`. ¿Que hace todo este conjunto de pasos? Nos permite configurar desde la web a nuestro Deauther.
+Now, with the ESP32 powered by its port, the first thing it will do is generate a wifi network called `Management AP`. We need to connect to this network from our PC or another device; the password is: `mgmtadmin`. Next, we'll open any web browser and enter the following address in the address bar: `192.168.4.1`. What does all these steps do? They allow us to configure our Deauther from the web.
 
 Entrando a la direccion en el navegador, observaremos varias opciones de configruacion y una lista de redes WIFI a nuestro alrededor.
 
