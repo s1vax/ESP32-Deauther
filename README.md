@@ -89,11 +89,11 @@ The first step is to connect our ESP32 to our PC, then:
    - Clicking the three dots will open the file explorer, allowing you to select your .bin files. In the first three dots (first row), you should choose the file `partition-table.bin`.
    - In the second step, we will search for and place the `bootloader.bin` file.
    - And finally, in the points of the third row, we will look for and place the file `esp32-wifi-penetration-tool.bin`
-   - Como mencionamos, ahora colocaremos las direcciones de memoria en la columna que esta al lado de la columna de los tres puntos. Las direcciones que debemos colocar son:
-       - Primera fila --> 0x8000
-       - Segunda fila --> 0x1000
-       - Tercera fila --> 0x10000
-   - Por ultimo, le damos click a las 3 casillas que se encuentran en la primera columna (deben salir en verde las filas luego de esto)
+   - As mentioned, we will now place the memory addresses in the column next to the column with the three dots. The addresses we need to place are:
+       - First row --> 0x8000
+       - Second row --> 0x1000
+       - Third row --> 0x10000
+   - Finally, click on the 3 boxes in the first column (the rows should turn green after this)
 
 <br>
 
