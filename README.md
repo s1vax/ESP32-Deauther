@@ -108,8 +108,8 @@ It should have looked like this:
 <img width="436" height="486" alt="image" src="https://github.com/user-attachments/assets/83e9b2d6-eaaa-41a5-ae68-fb788a05b255" />
 </p>
 
-- Finalmente, en la parte inferior de la ventana de la herramienta de flasheo, debemos seleccionar el puerto COM en donde se encuentra conectada nuestra ESP32, y BAUD en `11520`
-- Le damos en `START`
+- Finally, at the bottom of the flashing tool window, we must select the COM port where our ESP32 is connected, and set the BAUD to `11520`
+- We press `START`
 
 Hasta aca, ya tenemos nuestra ESP32 flasheada con el firmware para convertirlo en un Deauther ✅
 
