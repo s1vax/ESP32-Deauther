@@ -79,6 +79,8 @@ The first step is to connect our ESP32 to our PC, then:
    - Then we double-click on the file `flash_download_tool_3.9.3.exe`
    - Two windows will open (a command prompt and a smaller one). In the smaller window, enter the options: `ESP32` (instead of ESP38266) and `Develop`. Click `OK`
    - We close the command prompt, and another window will open. This is the flashing tool window
+
+<br>
    
 - Installing `.bin` files
    - Now, we will open the folder called `esp32-wifi-penetration-tool-master`
@@ -92,6 +94,8 @@ The first step is to connect our ESP32 to our PC, then:
        - Segunda fila --> 0x1000
        - Tercera fila --> 0x10000
    - Por ultimo, le damos click a las 3 casillas que se encuentran en la primera columna (deben salir en verde las filas luego de esto)
+
+<br>
 
 - In the `SPIFlashConfig` section, we leave the following options selected:
    - 40 MHz
@@ -118,15 +122,15 @@ Entrando a la direccion en el navegador, observaremos varias opciones de configr
    - En la lista de redes WIFI `Select Target`, debemos seleccionar una red, que sera la red victima de nuestro ataque de desautenticacion (con fines eticos y educativos, esta debe ser alguna red de nuestra propiedad)
    - En el apartado de `Attack Configuration` podemos encontrar:
 
-      - Attack type --> Que tipo de ataque realizaremos (DoS, Handshake, PMKID, Passive). Nosotros seleccionaremos `ATTACK_TYPE_DOS`
+      - ***Attack type*** --> Que tipo de ataque realizaremos (DoS, Handshake, PMKID, Passive). Nosotros seleccionaremos `ATTACK_TYPE_DOS`
         
-      - Attack method --> Que metodo de ataque utilizaremos. Nosotros utilizaremos `ATTACK_COMBINE_ALL`. Lo que significa esto es que el ESP32 va a disparar con todo su arsenal al mismo tiempo: va a mandar órdenes de desconexión globales (Broadcast FF:FF:FF:FF:FF:FF) y también órdenes individuales a cada celular o PC que vea conectado (Unicast). Básicamente, inunda el aire con tantas órdenes falsas de desconexión que el router se colapsa y nadie puede usar el WiFi.
+      - ***Attack method*** --> Que metodo de ataque utilizaremos. Nosotros utilizaremos `ATTACK_COMBINE_ALL`. Lo que significa esto es que el ESP32 va a disparar con todo su arsenal al mismo tiempo: va a mandar órdenes de desconexión globales (Broadcast FF:FF:FF:FF:FF:FF) y también órdenes individuales a cada celular o PC que vea conectado (Unicast). Básicamente, inunda el aire con tantas órdenes falsas de desconexión que el router se colapsa y nadie puede usar el WiFi.
         
-      - Attack timeout --> Durante cuantos segundos durara nuestro ataque
+      - ***Attack timeout*** --> Durante cuantos segundos durara nuestro ataque
 
 <br>
 
-Y finalmente, para aplicar el ataque, le damos en `Attack` ✅
+And finally, to apply the attack, we click on `Attack` ✅
 
 
 
