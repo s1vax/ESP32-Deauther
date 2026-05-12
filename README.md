@@ -76,9 +76,9 @@ The first step is to connect our ESP32 to our PC, then:
 - Installing the flashing tool
    - Once you have downloaded the folders from the Google Drive links provided above, we will begin installing the `ESP32 Flash Tool`
    - We open the unzipped folder `flash_download_tool_3.9.3`
-   - Luego le damos doble click en el archivo `flash_download_tool_3.9.3.exe`
-   - Se abriran 2 ventanas (un cmd y una mas pequeña), en la mas pequeña colocamos las opciones de: `ESP32` (en vez de ESP38266) y `Develop`. Le damos en `OK`
-   - Cerramos el cmd, y veremos que se abrira otra ventana. Esta es la de la herramienta de flasheo
+   - Then we double-click on the file `flash_download_tool_3.9.3.exe`
+   - Two windows will open (a command prompt and a smaller one). In the smaller window, enter the options: `ESP32` (instead of ESP38266) and `Develop`. Click `OK`
+   - We close the command prompt, and another window will open. This is the flashing tool window
    
 - Installing `.bin` files
    - Ahora, abriremos la carpeta llamada `esp32-wifi-penetration-tool-master`
