@@ -61,8 +61,10 @@ It's worth noting that this attack is foolproof on standard WPA/WPA2 networks, b
 
 Below are some links to videos where they use other deauthentication firmwares (some more advanced, which instead of being a simple Deauther, directly convert a certain device into a `Marauder`, that is, a Deauther + an additional set of hacking/pentesting tools):
 
-  - `ESP32 Marauder (by JustCallMeKoko)` --> https://www.youtube.com/watch?v=bHivs2c_o7I
+  - `ESP32 Marauder (by JustCallMeKoko)` --> https://github.com/justcallmekoko/ESP32Marauder --> You can also watch the following video: https://www.youtube.com/watch?v=bHivs2c_o7I
+  
   - `ESP32 Deauther / GhostESP` --> https://www.youtube.com/watch?v=dryQoQLEl90
+  
   - `Bruce Firmware` --> https://www.youtube.com/watch?v=1dC_abmQvzA
 
 <br>
