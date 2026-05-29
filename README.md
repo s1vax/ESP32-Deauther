@@ -64,9 +64,9 @@ Below are some links to videos where they use other deauthentication firmwares (
 
   - `ESP32 Marauder (by JustCallMeKoko)` --> https://github.com/justcallmekoko/ESP32Marauder --> You can also watch the following video: https://www.youtube.com/watch?v=bHivs2c_o7I
   
-  - `ESP32 Deauther / GhostESP` --> https://github.com/GhostESP-Revival/GhostESP --> You can also watch the following video: https://www.youtube.com/watch?v=dryQoQLEl90
+  - `GhostESP (a Marauder evolution, by GhostESP-Revival)` --> https://github.com/GhostESP-Revival/GhostESP --> You can also watch the following video: https://www.youtube.com/watch?v=dryQoQLEl90
   
-  - `Bruce Firmware` --> https://github.com/BruceDevices/firmware --> You can also watch the following video: https://www.youtube.com/watch?v=1dC_abmQvzA
+  - `Bruce Firmware (an alternative, by BruceDevices)` --> https://github.com/BruceDevices/firmware --> You can also watch the following video: https://www.youtube.com/watch?v=1dC_abmQvzA
 
 <br>
 <br>
