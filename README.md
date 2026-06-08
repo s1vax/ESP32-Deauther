@@ -140,6 +140,11 @@ And finally, to apply the attack, we click on `Attack` ✅
 <br>
 <br>
 
+## 🪤 ¿Sometimes work, sometimes not, why?
+
+<br>
+<br>
+
 ## 🧊 3D Cases (📌 in progress)
 
 <br>
